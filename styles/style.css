@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    margin: auto;
+    display: flex;
+    max-width: 1440px;
+    background: #181818;
+    color: white;
+    padding: 15px;
+    justify-content: center;
+}
+span {
+    font-size: 16px;
+    padding: 3px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.titulo-texto {
+    font-size: 1.5em;
+}
+
+
+.banner img{
+    background-repeat: no-repeat;
+    filter: brightness(.6);
+    max-width: 414px;
+    width: auto;
+    height: auto;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+}
+
+.banner-content {
+    width: 414px;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 80px;
+    color: white;   
+}
+
+.titulo-banner {
+    margin-bottom: 20px;
+}
+
+.texto-banner {
+    padding: 10px;
+    line-height: 29px;
+    color: #F9F9F9;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.destaques {
+    max-width: 1440px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.destaques-itens {
+    padding: 30px;
+    margin: 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    line-height: 29px;
+    gap: 10px;
+    
+}
+
+.destaques-titulo {
+    font-size: 1.75em;
+}
+
+.back-tenis {
+    background: #EBE9EA;
+    border-radius: 10px;
+    width: 374px;
+    height: 302px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 40px 8px;
+}
+
+.creditos {
+    display: flex;
+    background: #181818;
+    justify-content: center;
+    align-items: center;
+    color: #F9F9F9;
+    padding: 20px;
+}
